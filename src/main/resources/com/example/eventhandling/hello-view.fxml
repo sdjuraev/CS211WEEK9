@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<Pane prefHeight="250" prefWidth="250" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.eventhandling.HelloController">
+    <Button fx:id="fontCLass" layoutX="10.0" layoutY="30.0" onAction="#showFontClass" prefHeight="25.0" prefWidth="222.0" text="Font Class">
+    </Button>
+    <Button layoutX="10.0" layoutY="60.0" prefHeight="25.0" prefWidth="222.0" text="Image and ImageView Classes" onAction="#showImageView">
+    </Button>
+    <Button layoutX="10.0" layoutY="90.0" prefHeight="25.0" prefWidth="222.0" text="Flow Pane" onAction="#showFlowPane">
+    </Button>
+    <Button layoutX="10.0" layoutY="120.0" prefHeight="25.0" prefWidth="222.0" text="Grid Pane" onAction="#showGridPane">
+    </Button>
+    <Button layoutX="10.0" layoutY="150.0" prefHeight="25.0" prefWidth="222.0" text="Border Pane" onAction="#showBorderPane">
+    </Button>
+    <Button layoutX="10.0" layoutY="180.0" prefHeight="25.0" prefWidth="222.0" text="HBox Pane" onAction="#showHBox">
+    </Button>
+    <Button layoutX="10.0" layoutY="210.0" prefHeight="25.0" prefWidth="222.0" text="VBox Pane" onAction="#showVBox">
+    </Button>
+
+
+</Pane>

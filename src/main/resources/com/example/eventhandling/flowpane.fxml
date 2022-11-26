@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<FlowPane fx:id="flowPane" hgap="15" orientation="VERTICAL" prefHeight="150" prefWidth="150" vgap="20" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.eventhandling.FlowpaneController">
+   <Label text="First Name " />
+   <TextField promptText="First name" />
+   <Label text="Last Name" />
+   <TextField promptText="Last name" />
+   <Button text="Add Name " />
+</FlowPane>
