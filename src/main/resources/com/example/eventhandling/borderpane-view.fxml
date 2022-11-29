@@ -1,14 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<BorderPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.example.eventhandling.BorderpaneView"
-            prefHeight="400.0" prefWidth="600.0">
+<BorderPane fx:id="mainBorderPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.eventhandling.BorderpaneView">
+
+<top>
+    <Pane>
+         <children>
+            <MenuBar>
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Close" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Delete" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+         </children></Pane>
+</top>
+
+    <left>
+        <Pane><children>
+        <Button text="First Window" layoutX="10" layoutY="20" prefWidth="100" onAction="#firstButton">
+
+        </Button>
+        <Button layoutX="10" layoutY="90.0" text="Second Window" prefWidth="100" onAction="#secondButton"/>
+        </children>
+    </Pane>
+    </left>
 
 </BorderPane>

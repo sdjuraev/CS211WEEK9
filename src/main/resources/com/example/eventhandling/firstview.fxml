@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root prefHeight="353.0" prefWidth="404.0" type="Pane" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ColorPicker layoutX="79.0" layoutY="102.0" />
+      <CheckBox layoutX="227.0" layoutY="106.0" mnemonicParsing="false" text="CheckBox" />
+      <Button layoutX="201.0" layoutY="266.0" mnemonicParsing="false" text="Button" />
+   </children>
+</fx:root>

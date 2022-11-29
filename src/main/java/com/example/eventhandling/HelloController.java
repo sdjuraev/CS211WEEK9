@@ -48,6 +48,10 @@ showViews("gridpane-view.fxml", "Grid Pane View");
     private void showVBox() throws IOException {
         showViews("vbox-view.fxml", "V Box View");
     }
+    @FXML
+    private void showShapes() throws IOException {
+        showViews("shapes-view.fxml", "Shapes ");
+    }
 
     private void showViews(String fxmlID, String stageTitle) throws IOException {
         FXMLLoader fxmlLoader=new FXMLLoader(HelloApplication.class.getResource(fxmlID));
