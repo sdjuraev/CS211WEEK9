@@ -14,7 +14,6 @@ public class ImageViewExample {
     @FXML
     private void showImage()
     {
-
         File file=new File("images/wp3202677.jpg");
         if (file.exists()) {
             image = new Image(file.toURI().toString());
@@ -24,8 +23,11 @@ public class ImageViewExample {
             System.out.println("Image does not exist ");
         }
     }
+
     @FXML
     private void rotateImage(){
+        imageView.setRotate(degree);
+        degree+=10;
 
     }
 

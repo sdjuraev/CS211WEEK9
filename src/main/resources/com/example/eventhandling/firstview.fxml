@@ -3,10 +3,11 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<fx:root prefHeight="353.0" prefWidth="404.0" type="Pane" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+<fx:root prefHeight="353.0" prefWidth="404.0" type="FlowPane" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" orientation="VERTICAL">
    <children>
-      <ColorPicker layoutX="79.0" layoutY="102.0" />
-      <CheckBox layoutX="227.0" layoutY="106.0" mnemonicParsing="false" text="CheckBox" />
-      <Button layoutX="201.0" layoutY="266.0" mnemonicParsing="false" text="Button" />
+     <Label text="Name"></Label>
+      <TextField ></TextField>
+      <Button text="Click me"></Button>
+
    </children>
 </fx:root>

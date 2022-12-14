@@ -10,11 +10,11 @@ public class BorderpaneView {
     @FXML
     private void firstButton(){
         FirstviewController firstviewController=new FirstviewController();
-
         this.mainBorderPane.setCenter(firstviewController);
     }
     @FXML
     private void secondButton(){
+
 
     }
 }

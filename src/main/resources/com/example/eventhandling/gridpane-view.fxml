@@ -5,7 +5,12 @@
 
 <GridPane prefHeight="160.0" prefWidth="350.0"
           xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
-          fx:controller="com.example.eventhandling.GridpaneView" vgap="20" fx:id="gridPane">
+          fx:controller="com.example.eventhandling.GridpaneView" vgap="20" fx:id="gridPane" >
+    <Label text="Name"></Label>
+    <TextField GridPane.rowIndex="0" GridPane.columnIndex="1"></TextField>
+    <Label text="Surename" GridPane.columnIndex="0" GridPane.rowIndex="1"></Label>
+    <Button text="Click me" GridPane.rowIndex="2" GridPane.columnIndex="1" onAction="#addCheckBox"></Button>
+
 
 
 </GridPane>
