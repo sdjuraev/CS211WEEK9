@@ -14,7 +14,8 @@ public class BorderpaneView {
     }
     @FXML
     private void secondButton(){
-
+        SecondviewController secondviewController=new SecondviewController();
+        this.mainBorderPane.setCenter(secondviewController);
 
     }
 }

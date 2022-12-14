@@ -4,10 +4,10 @@
 <?import javafx.scene.layout.*?>
 
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.eventhandling.SecondviewController">
+<fx:root type="FlowPane" orientation="VERTICAL" vgap="30" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Button layoutX="131.0" layoutY="293.0" mnemonicParsing="false" text="Button" />
-      <Button layoutX="396.0" layoutY="293.0" mnemonicParsing="false" text="Button" />
-      <Label layoutX="232.0" layoutY="119.0" text="Label" />
+      <Button layoutX="131.0" layoutY="293.0" mnemonicParsing="false" text="First Button" />
+      <Button layoutX="396.0" layoutY="293.0" mnemonicParsing="false" text="Second Button" />
+      <Label layoutX="232.0" layoutY="119.0" text="There should be some text" />
    </children>
-</AnchorPane>
+</fx:root>
